@@ -5,6 +5,7 @@ import { Grid } from "@material-ui/core";
 
 import portfolioImage from "../images/portfolio-home-page.png";
 import neuralnetImage from "../images/neural-network0-image.svg";
+import backendImage from "../images/backendApp.jpeg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -25,6 +26,10 @@ const Portfolio = () => {
     "An image classification neural network that I built " +
     "in Python with TensorFlow 2.0. The NN operates on the well known MNIST dataset.";
 
+  const backendAppDescription =
+    "A backend task manager application built with Node.js, Express.js, and MongoDB." +
+    " Equipped with user authentication and all aspects of a CRUD application.";
+
   return (
     <div className={classes.root}>
       <Grid container>
@@ -42,6 +47,14 @@ const Portfolio = () => {
             title="MNIST Neural Network"
             description={portfolioDescription1}
             link="https://github.com/cadenmcmann/MNIST-Classifier"
+          />
+        </Grid>
+        <Grid item>
+          <PortfolioCard
+            image={backendImage}
+            title="Node.js Task App"
+            description={backendAppDescription}
+            link="www.youtube.com"
           />
         </Grid>
       </Grid>
