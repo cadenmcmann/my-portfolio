@@ -24,7 +24,7 @@ const header1 = "Academia and Career";
 const content1 =
   "At school, I am a rising senior " +
   "studying Mathematics and Computer Science and will graduate in December of 2021. Some of my favorite topics " +
-  "include machine learning and web application development. When developing web apps, I am most skilled with the MERN" +
+  "include machine learning and web application development. When developing web apps, I am most skilled with the MERN " +
   "stack, which includes React.js for the front-end and Node.js, Express.js, and MongoDB for the backend.";
 const image1 = bioimage1;
 
